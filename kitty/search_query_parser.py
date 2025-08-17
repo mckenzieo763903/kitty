@@ -48,7 +48,7 @@ class SearchTreeNode:
     def search(self, universal_set: set[T], get_matches: GetMatches[T]) -> set[T]:
         return self(universal_set, get_matches)
 
-    def __call__(self, candidates: set[T], get_matches: GetMatches[T]) -> set[T]:
+    def __call__(self, universal_set: set[T], get_matches: GetMatches[T]) -> set[T]:
         return set()
 
     def iter_token_nodes(self) -> Iterator['TokenNode']:
