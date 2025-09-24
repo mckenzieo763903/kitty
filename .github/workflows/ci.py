@@ -220,6 +220,16 @@ IGNORED_DEPENDENCY_CVES = [
     'CVE-2025-6069', # DoS in HTMLParser
     # glib
     'CVE-2025-4056', # Only affects Windows, on which we dont run
+    # Go stdlib
+    'CVE-2026-39821',
+    'CVE-2026-27145',
+    'CVE-2026-33818',
+    'CVE-2026-56859',
+    'CVE-2026-46600',
+    'CVE-2026-56862',
+    'CVE-2026-39822',
+    # OpenSSL
+    'CVE-2026-14456',
 ]
 
 

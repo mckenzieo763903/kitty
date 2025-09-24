@@ -1,9 +1,5 @@
 name: Depscan
-on:
-    push:
-        branches: [master]
-    schedule:
-        - cron: '0 12 * * 5'
+on: push
 
 env:
     CI: 'true'
